@@ -1,0 +1,39 @@
+# Visual Studio / CMake build artifacts
+.vs/
+out/
+build/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio files
+*.VC.db
+*.opendb
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+CMakeUserPresets.json
+
+# Build outputs
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.tlog
+*.log
+
+# Application generated files & output dump
+output/
+cs2-dumper.log
+
+# System files
+.DS_Store
+Thumbs.db
