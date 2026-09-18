@@ -23,6 +23,7 @@ A high-performance, standalone 64-bit offsets, buttons, interfaces, and Source 2
      * Complete restoration of the project codebase from transaction history following accidental deletion.
      * End-to-end testing and runtime verification on live `cs2.exe` process memory.
      * **Resolved Critical Crash (Access Violation `0xC0000005`):** Pinpointed and resolved a crash in `analyze_schemas`. When traversing the Source 2 memory pool free list (`UtlTsHash`), `client.dll` yielded an unallocated/stale memory block with an invalid count of `62,385` enumerators. Implemented strict identifier validation (`is_valid_ident`), enum alignment checks, and bounds validation (`enumerator_count <= 4096`, `field_count <= 8192`), safely filtering corrupt blocks just like the original Rust implementation.
+     * Updated the output file header banner URL from the original Rust repo to [https://github.com/simv0lofficial/cs2_dumper](https://github.com/simv0lofficial/cs2_dumper).
      * Finalized x64 Release builds, configured repository `.gitignore`, and completed documentation.
 
 ---

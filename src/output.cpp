@@ -139,7 +139,7 @@ Output::Output(const std::vector<std::string>& file_types,
 }
 
 void Output::write_banner(Formatter& fmt) const {
-    fmt.writeln("// Generated using https://github.com/a2x/cs2-dumper");
+    fmt.writeln("// Generated using https://github.com/simv0lofficial/cs2_dumper");
     fmt.writeln("// " + m_timestamp);
     fmt.writeln();
 }
